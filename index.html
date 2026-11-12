@@ -10,7 +10,7 @@
   <link rel="alternate" hreflang="en" href="index.html">
   <link rel="icon" href="logo.png">
   <style>
-    :root { --bg: #f4f6f5; --card: #ffffff; --ink: #1b1e1c; --muted: #5b625e; --accent: #0e6b51; --line: #dfe4e1; }
+    :root { --bg: #f4f6f5; --card: #ffffff; --ink: #1b1e1c; --muted: #5b625e; --accent: #1d5e46; --line: #dfe4e1; }
     @media (prefers-color-scheme: dark) {
       :root { --bg: #121413; --card: #1b1e1c; --ink: #e8ebe9; --muted: #a3aaa6; --accent: #5cc7a2; --line: #2e3330; }
     }
@@ -42,17 +42,18 @@
       </nav>
     </header>
     <h1>Privacy policy</h1>
-    <p class="muted">Last updated: 25 October 2026</p>
+    <p class="muted">Last updated: 10 November 2026</p>
     <p>This policy covers the eTalyp website (etalyp.datmddi.edu.tm) and the eTalyp mobile app (iOS and Android). eTalyp is the student information system of the Dowletmammet Azadi Turkmen National Institute of World Languages. The institute is responsible for the data.</p>
 
     <h2>Who uses it</h2>
-    <p>eTalyp is used only by the institute's students, teachers and staff. The institute creates every account; nobody can sign up on the website or in the app.</p>
+    <p>eTalyp is used only by the institute's students, teachers and staff, and in the mobile app also by students' parents. The institute creates every account (a parent's by the dean's office, by phone number); nobody can sign up on the website or in the app.</p>
 
     <h2>What data is processed</h2>
     <ul>
       <li>Study records: surname, name, student number, faculty, specialty, group, year and study status; timetable, attendance, grades, lineup, make-ups, transcripts and certificates.</li>
       <li>Personal file data (entered by the institute): date of birth, sex, nationality, address, phone numbers, document number, parents' names, workplaces, phones and email addresses, photo.</li>
       <li>Account: username and password. The password is kept only as a one-way hash and is never stored in plain text. The chosen language and theme.</li>
+      <li>Messages you write to the administration in the Contact section (Habarlaşmak), their subject and text, and the replies.</li>
       <li>Technical data: the IP address and the browser or device name at sign-in and in the action log, for security.</li>
     </ul>
 
@@ -62,6 +63,7 @@
       <li>Sign-in keys are kept in the phone's secure storage (iOS Keychain, Android Keystore) and removed at sign-out. The password is not stored on the phone.</li>
       <li>The app does not use location, contacts, the camera, the microphone, photos or files.</li>
       <li>The app has no ads, no analytics and no tracking.</li>
+      <li>Notifications (push): if you allow them, the phone's notification token is kept on the server with your sign-in. A short message about a new grade, an absence, a lesson change or an announcement goes to the phone through Google (Firebase Cloud Messaging) or Apple (Apple Push Notification service); it may contain a subject, a grade or a child's name. Each kind can be switched off in Profile → Notifications; after signing out no notifications come and the token is deleted.</li>
     </ul>
 
     <h2>Why the data is used</h2>
@@ -73,7 +75,7 @@
     <p>The data is not sold and is not shared with anyone for advertising.</p>
 
     <h2>Who sees the data</h2>
-    <p>Everyone sees only what their role allows: a student sees only their own data, a teacher the groups they teach, a dean's office its own faculty, and the academic office and administrators all data. Data is given to third parties only where the law requires it.</p>
+    <p>Everyone sees only what their role allows: a student sees only their own data, a parent only their own children's, a teacher the groups they teach, a dean's office its own faculty, and the academic office and administrators all data. Data is given to third parties only where the law requires it.</p>
 
     <h2>Where and how long it is kept</h2>
     <p>The data is kept on the institute's own server in Turkmenistan and travels over HTTPS. Backups are encrypted and kept for a limited time.</p>
